@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="me.yisak.web.dto.HelloResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-22T16:49:10" hostname="Choui-iMac.local" time="0.07">
+<testsuite name="me.yisak.web.dto.HelloResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-23T13:46:49" hostname="Choui-iMac.local" time="0.058">
   <properties/>
-  <testcase name="롬복_기능_테스트" classname="me.yisak.web.dto.HelloResponseDtoTest" time="0.07"/>
+  <testcase name="롬복_기능_테스트" classname="me.yisak.web.dto.HelloResponseDtoTest" time="0.058"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
