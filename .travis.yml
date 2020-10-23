@@ -24,8 +24,8 @@ before_deploy:
 
 deploy:
   -provider: s3
-  access_key_id: $AWS_ACCESS_KEY # Travis repo setting
-  secret_access_key: $AWS_SECRET_KEY # Travis repo setting
+  access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
+  secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
   bucket: yisak-springboot2-webservice-build
   region: ap-northeast-2
   skip_cleanup: true
@@ -34,8 +34,8 @@ deploy:
   wait-until-deployed: true
 
   -provider: codedeploy
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
+  access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
+  secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
   bucket: yisak-springboot2-webservice-build
   key: springboot2-webservice.zip
   bundle_type: zip
