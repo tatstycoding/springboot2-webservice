@@ -19,7 +19,6 @@ public class IndexController {
 // 페이지에 관련된 컨트롤러는 모두 IndexController를 사용
 
     private final PostsService postsService;
-    private final HttpSession httpSession;
 
     @GetMapping("/")
     public String index(Model model, @LoginUser SessionUser user){
