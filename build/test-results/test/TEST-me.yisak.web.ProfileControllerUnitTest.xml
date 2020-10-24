@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.yisak.web.ProfileControllerUnitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-24T04:05:24" hostname="Choui-iMac.local" time="0.005">
+  <properties/>
+  <testcase name="active_profile이_없으면_default가_조회된다" classname="me.yisak.web.ProfileControllerUnitTest" time="0.002"/>
+  <testcase name="real_profile이_없으면_첫번째가_조회된다" classname="me.yisak.web.ProfileControllerUnitTest" time="0.001"/>
+  <testcase name="real_profile이_조회된다" classname="me.yisak.web.ProfileControllerUnitTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
